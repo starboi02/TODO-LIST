@@ -1,0 +1,36 @@
+body{
+  background-color: #2d545e;
+  background-image: url(https://www.elsetge.cat/myimg/f/160-1600491_autodesk-wallpaper-website-background.jpg);
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  font-family: Arial;
+
+}
+button{
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+  margin: 20px;
+  height:43px;
+  width: 150px;
+  font-family: Arial;
+  font-size: 2vw;
+}
+input{
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  width:80vw;
+  height: 30px;
+  font-family: Arial;
+  font-size: 20px;
+}
+ul{
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+}

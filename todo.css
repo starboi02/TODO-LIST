@@ -14,9 +14,8 @@ button{
   border-radius: 4px;
   color: white;
   padding: 4px;
-  margin: 20px;
+  margin: auto 20px;
   height:43px;
-  width: 150px;
   font-family: Arial;
   font-size: 2vw;
 }

@@ -2,9 +2,15 @@ var addBtn=document.getElementById('addBtn');
 var List=document.getElementById('tasks');
 var listItem=document.getElementById('addText');
 
-addBtn.addEventListener("click",function(){
-  var Text=listItem.value;
+listItem.addEventListener("keydown", (event) => {
+  if(event.key === 'Enter')
+  addBtn.click();
+})
 
+
+addBtn.addEventListener("click", function(){
+  
+  var Text=listItem.value;
   if(Text!==""){
     listItem.value="";
     var todo=document.createElement("LI");
